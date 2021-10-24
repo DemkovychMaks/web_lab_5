@@ -1,0 +1,189 @@
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 700px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 2rem;
+    background-color: rgb(248, 248, 248);
+    padding: 1rem;
+    border-radius: 16px;
+    border: 1px solid rgb(145, 201, 255);
+}
+
+.header_name {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(150, 218, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.search input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 15rem;
+    border-width: 1px;
+}
+
+.search button {
+    background-color: white;
+    color: rgb(102, 205, 255);
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 218, 255);
+}
+
+.search button:hover {
+    background-color: rgb(150, 218, 255);
+    color: white;
+}
+
+.search button.clear {
+     color: rgb(255, 99, 99);
+     background-color: white;
+     border-color: rgb(255, 99, 99);
+}
+.search button.clear:hover {
+    color: white;
+    background-color: rgb(255, 99, 99);
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    min-width: 15rem;
+    padding: 1rem;
+}
+
+.content h2 {
+    font-weight: 500;
+}
+
+.content .count > * {
+    margin-bottom: 1rem;
+}
+
+.count_btn {
+    background-color: rgb(242, 250, 255);
+    color: rgb(150, 218, 255);
+    min-width: 15rem;
+    height: 2.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid rgb(150, 218, 255);
+}
+.count_btn:hover {
+    color: white;
+    background-color: rgb(150, 218, 255);
+}
+
+.default_button{
+    background-color: rgb(242, 250, 255);
+    color: rgb(150, 218, 255);
+    min-width: 5rem;
+    height: 2.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(150, 218, 255);
+}
+.default_button:hover {
+    color: white;
+    background-color: rgb(150, 218, 255);
+}
+.vertical-line {
+  margin: 1rem;
+  border-left: 1px solid rgb(145, 201, 255);
+  min-height: 500px;
+}
+
+.card {
+    max-width: 400px;
+}
+
+.card__image {
+    min-height: 200px;
+    max-width: 400px;
+    border-radius: 16px;
+    cursor: pointer;
+} 
+
+hr {
+    margin: 1rem;
+    border-top:  1px solid rgb(145, 201, 255);
+}
+
+ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+
+.form-field{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form-field input {
+    margin-left: 1rem;
+    border-radius: 6px;
+    padding: 5px;
+    width: 10rem;
+    border: 1px solid rgb(145, 201, 255);
+}
+
+.edit_button {
+    background-color: rgb(235, 255, 217);
+    color: rgb(145, 255, 120);
+    min-width: 6rem;
+    height: 2.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(145, 255, 120);
+    margin-right: 187px;
+}
+
+.edit_button:hover {
+    background-color: rgb(145, 255, 120);
+    color: white;
+}
+
+.delete_button {
+    background-color: rgb(255, 197, 197);
+    color: rgb(255, 109, 109);
+    min-width: 7rem;
+    height: 2.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 109, 109);
+}
+
+.delete_button:hover {
+    background-color: rgb(255, 109, 109);
+    color: white;
+}
